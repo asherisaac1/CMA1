@@ -16,11 +16,11 @@
 
       sudo service automagic-fan restart
 
-와
+이 코드와
 
       sudo service automagic-fan start
 
-의 차이점이 궁금해졌다.
+이 코드의 차이점이 궁금해졌다.
 왜냐면 코드는 달라도 실행한 결과는 동일했기 때문이다.
 
 ## 3. 차이점을 찾아보자!
@@ -29,21 +29,21 @@
 
       sudo service automagic-fan restart
 
-는 명령어를 치자마자 바로 프로펠러가 움직였고
+이 코드는 명령어를 치자마자 바로 프로펠러가 움직였고
 
       sudo service automagic-fan start
 
-는 명령어를 치고나서 조금 기다린 뒤에 프로펠러가 움직였다.
+이 코드는 명령어를 치고나서 조금 기다린 뒤에 프로펠러가 움직였다.
 
 결국 결과적으로 그 둘의 차이점은
 
       sudo service automagic-fan start
-SSSSSSSSSSSSSSSSSSSSSSSSSSSS
-코드는
+
+ 이 코드는
 
       sudo service automagic-fan restart
 
-코드에 비해 프로펠러가 조금 늦게 돌기 시작한다.
+이 코드에 비해 프로펠러가 조금 늦게 돌기 시작한다.
 
 ## 4. USB 카메라를 코딩해보자!
 그 다음으로 우리는 USB 카메라를 코딩으로 작동하게 만들자고 생각했고 다음의 코드들을 생각해 냈다.
@@ -61,4 +61,8 @@ SSSSSSSSSSSSSSSSSSSSSSSSSSSS
 이 사진 중에 오른쪽에ㅐ 있는 카메라 사진만 보면 된다.
 
 ## 5. 마무리!
-그렇게 해서 
+그렇게 해서 쿨링 팬을 움직이게 하는 코드와 카메라를 보이게 하는 코드를 완성했다.
+처음에는 많이 힘들고 어떻게 해야 하는지 몰라 했지만 막상 해보니 재밌었다.
+그리고 우리의 코딩 실력이 한 층 더 느는 느낌이 든다
+
+-김건영, 김민군 -
